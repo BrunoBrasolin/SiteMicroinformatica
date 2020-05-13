@@ -60,7 +60,6 @@ li {
 
 .exs:hover {
   text-decoration: underline;
-  transition-duration: 0.3s;
   border: 1.5px solid yellow;
 }
 
@@ -88,6 +87,61 @@ hr {
   border: none;
   height: 3px;
   background-image: linear-gradient(to left, black, blue);
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.modal > .modal-content {
+  border: 2px solid white;
+  border-radius: 1.5%;
+  background-image: url("lousa.jpg");
+  height: 60%;
+  width: 60%;
+  padding: 1% 5%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal > .modal-content > .introducao {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.modal > .modal-content > .introducao > h3 {
+  font-style: italic;
+}
+
+.modal > .modal-content > .inputs {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.modal > .modal-content > .inputs > .submit {
+  color: white;
+  background-color: #777;
+  padding: 1em;
+}
+
+.modal > .modal-content > hr {
+  background-color: white;
+  background-image: none;
+  border: white;
+}
+
+.modal > .modal-content > .close {
+  position: absolute;
 }
 
 @media (max-width: 520px) {
