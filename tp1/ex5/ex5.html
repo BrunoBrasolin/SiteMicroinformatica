@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../style_ex.css">
+</head>
+
+<body>
+    <div class="exercicio">
+        <div class="introducao">
+            <p>"Faça um pseudocódigo que exiba um menu de opções e receba a
+                opção do usuário e os dados necessários para executar cada
+                operação:<br>
+                MENU DE OPÇÕES<br>
+                1. Somar dois números;<br>
+                2. Raiz quadrada de um número;<br>
+                Digite a opção desejada."
+            </p>
+        </div>
+        <p>
+            <input type="number" id="num1" placeholder="Digite um número">
+            <input type="number" id="num2" placeholder="Digite outro número">
+        </p>
+        <p>
+            <input type="radio" onclick="atualizar();" id="somar" name="opcao">Somar
+            <input type="submit" value="Calcular" onclick="calcularsoma();" id="calcularsoma">
+        </p>
+        <p>
+            <input type="radio" name="opcao" onclick="atualizar();" id="raiz">Raiz quadrada
+            <input type="submit" value="Calcular" onclick="calcularraiz();" id="calcularraiz">
+        </p>
+        <hr>
+        <p><span id="tipo"></span><span id="saida"></span></p>
+
+        <a href="../../index.html">Volte para o Início</a>
+    </div>
+    <script src="ex5.js"></script>
+</body>
+
+</html>

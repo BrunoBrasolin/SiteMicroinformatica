@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../style_ex.css">
+</head>
+
+<body>
+    <div class="exercicio">
+        <div class="introducao">
+            <p>"Criar um (pseudocódigo e fluxograma) que determine a data
+                cronologicamente maior de duas datas fornecidas pelo usuário.
+                Cada data deve ser fornecida por três valores inteiros, onde o
+                primeiro representa o dia, o segundo o mês e o terceiro o ano."
+            </p>
+        </div>
+        <p>Primeira Data:
+            <input type="number" id="dia1" placeholder="Dia">
+            <input type="number" id="mes1" placeholder="Mês">
+            <input type="number" id="ano1" placeholder="Ano">
+        </p>
+        <p>Segunda Data:
+            <input type="number" id="dia2" placeholder="Dia">
+            <input type="number" id="mes2" placeholder="Mês">
+            <input type="number" id="ano2" placeholder="Ano">
+            <button type="submit" onclick="determinar();">Determinar</button>
+        </p>
+        <hr>
+        <p>Primeira data: <span id="dia11">x</span>/<span id="mes11">y</span>/<span id="ano11">z</span></p>
+        <p>Primeira data: <span id="dia22">x</span>/<span id="mes22">y</span>/<span id="ano22">z</span></p>
+        <hr>
+        <div>
+            <p>A data cronologicamente maior é: <span id="saida"></span> </p>
+        </div>
+        <a href="../../index.html">Volte para o Início</a>
+    </div>
+    <script src="ex4.js"></script>
+</body>
+
+</html>
