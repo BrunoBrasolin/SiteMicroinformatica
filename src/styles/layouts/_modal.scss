@@ -3,31 +3,28 @@
   border-radius: 1.5%;
   background-image: url("../images/lousa.jpg");
   background-color: #c6c6c6;
-  height: 60%;
-  width: 60%;
   padding: 1% 5%;
+  width: auto;
+  height: auto;
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-   .modal-header {
+  .modal-header {
     font-weight: bold;
     color: white;
     font-size: 1.5rem;
-     h3 {
+    h3 {
       font-style: italic;
     }
   }
-   .modal-body {
-    margin: 10% 0;
+  .modal-body {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 0 10%;
-     .submit {
+    >*{
+      margin: .5rem 0;
+    }
+    > .submit {
       color: white;
       background-color: #777;
-      padding: 1em;
     }
   }
 }

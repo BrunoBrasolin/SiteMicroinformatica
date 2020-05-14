@@ -1,10 +1,17 @@
 import React from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button, Modal, Form } from "react-bootstrap";
 class ModalEx extends React.Component {
-  ex() {
+  constructor() {
+    super();
+    this.state = { show: false };
+  }
+  handleModal() {
+    this.setState({ show: !this.state.show });
+  }
+  render() {
     return (
-            <>
-        <Button variant="secondary" onClick={() => this.handleModal()}>
+      <div>
+        <Button variant="dark" onClick={() => this.handleModal()}>
           Open Modal
         </Button>
         <Modal show={this.state.show} className="modalex">
@@ -15,10 +22,22 @@ class ModalEx extends React.Component {
             </h3>
           </Modal.Header>
           <Modal.Body>
-            <input type="number" id="a" placeholder="Digite o valor de a" />
-            <input type="number" id="b" placeholder="Digite o valor de b" />
-            <input type="number" id="c" placeholder="Digite o valor de c" />
-            <button>Calcular</button>
+            <Form.Control
+              type="number"
+              id="a"
+              placeholder="Digite o valor de a"
+            />
+            <Form.Control
+              type="number"
+              id="b"
+              placeholder="Digite o valor de b"
+            />
+            <Form.Control
+              type="number"
+              id="c"
+              placeholder="Digite o valor de c"
+            />
+            <Button variant="outline-light">Calcular</Button>
           </Modal.Body>
           <Modal.Footer>
             <p>
@@ -29,11 +48,10 @@ class ModalEx extends React.Component {
               O valor de Delta é: <span id="saidaDelta"></span>
             </p>
             <span id="saida"></span>
-            <Button onClick={() => this.handleModal()}>Fechar Modal</Button>
           </Modal.Footer>
         </Modal>
-      </>
-    )
+      </div>
+    );
   }
 }
 export default ModalEx;
