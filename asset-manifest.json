@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SiteMicroinformatica/static/css/main.d8c1c57c.chunk.css",
+    "main.js": "/SiteMicroinformatica/static/js/main.274f976b.chunk.js",
+    "main.js.map": "/SiteMicroinformatica/static/js/main.274f976b.chunk.js.map",
+    "runtime-main.js": "/SiteMicroinformatica/static/js/runtime-main.9b732b22.js",
+    "runtime-main.js.map": "/SiteMicroinformatica/static/js/runtime-main.9b732b22.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/SiteMicroinformatica/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ad61fa00.chunk.js": "/SiteMicroinformatica/static/js/2.ad61fa00.chunk.js",
+    "static/js/2.ad61fa00.chunk.js.map": "/SiteMicroinformatica/static/js/2.ad61fa00.chunk.js.map",
+    "index.html": "/SiteMicroinformatica/index.html",
+    "precache-manifest.652c4ed7539ee69ebd52516954105de3.js": "/SiteMicroinformatica/precache-manifest.652c4ed7539ee69ebd52516954105de3.js",
+    "service-worker.js": "/SiteMicroinformatica/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/SiteMicroinformatica/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d8c1c57c.chunk.css.map": "/SiteMicroinformatica/static/css/main.d8c1c57c.chunk.css.map",
+    "static/js/2.ad61fa00.chunk.js.LICENSE.txt": "/SiteMicroinformatica/static/js/2.ad61fa00.chunk.js.LICENSE.txt",
+    "static/media/style.min.css": "/SiteMicroinformatica/static/media/lousa.a8402539.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b732b22.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ad61fa00.chunk.js",
+    "static/css/main.d8c1c57c.chunk.css",
+    "static/js/main.274f976b.chunk.js"
+  ]
+}
