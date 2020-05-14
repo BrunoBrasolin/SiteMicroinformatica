@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f6b49c9be82ca882ebe911fda8ce189",
+    "revision": "ac50ea7b1813eacf8fcec3489175ca57",
     "url": "/SiteMicroinformatica/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SiteMicroinformatica/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6aa9a9e30241b30ac9c5",
-    "url": "/SiteMicroinformatica/static/css/main.32fba570.chunk.css"
+    "revision": "60d58cf4f8f0830b2f67",
+    "url": "/SiteMicroinformatica/static/css/main.d8c1c57c.chunk.css"
   },
   {
     "revision": "0f867d0c6bfeb53703eb",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SiteMicroinformatica/static/js/2.ad61fa00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6aa9a9e30241b30ac9c5",
-    "url": "/SiteMicroinformatica/static/js/main.92b66b71.chunk.js"
+    "revision": "60d58cf4f8f0830b2f67",
+    "url": "/SiteMicroinformatica/static/js/main.274f976b.chunk.js"
   },
   {
     "revision": "723687ba5562d3d39ef5",
